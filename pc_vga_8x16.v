@@ -1,3 +1,9 @@
+//Source: https://github.com/MParygin/v.vga.font8x16
+/*
+ * Our board was not compatible with the original implimentation, so we used this adaptation as a stopgap
+ * very much recommend reviewing the original version to see if your board is compatible, as the use of regs
+ * here is very high.  
+ */
 /*
  * This file implements a Character ROM for translating ASCII
  * character codes into 8x16 pixel image.
