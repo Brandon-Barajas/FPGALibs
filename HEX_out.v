@@ -2,7 +2,7 @@ module HEX_out(in, HEX0);
 input [3:0] in;
 output [6:0] HEX0;
 assign HEX0=hex0;
-reg [6:0] 	hex0;
+reg [6:0] hex0;
 always @*
 	case (in)
 		4'b0000 : begin      	//Hexadecimal 0

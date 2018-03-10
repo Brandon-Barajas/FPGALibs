@@ -1,0 +1,10 @@
+*.cdb
+*.hdb
+db/
+incremental_db/
+output_files/
+simulation/
+*.bak
+*.qsf
+*.qpf
+*.rpt
